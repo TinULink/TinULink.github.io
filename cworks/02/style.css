@@ -1,0 +1,211 @@
+#logogo{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 4px;
+    color: #28669F;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 17.5px;
+    text-align: center;
+    line-height: 48px;
+    margin: 0px;
+}
+
+.fixedico{
+    display: block;
+    border: 5px rgb(230, 138, 0) solid;
+    border-radius: 60px;
+    background-color: rgb(255, 219, 77);
+    height: 60px;
+    width: 60px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+
+#iphone1{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+.ccontainer{
+    display: flex;
+    flex-flow: row;
+    flex-flow: wrap;
+    justify-content:center;
+}
+.codeno{
+    font-family: "Consolas";
+    font-weight: 100;
+    line-height: 23px;
+    font-size: 15px;
+    text-align: left;
+    color: rgb(132, 150, 165);
+
+}
+.codejson{
+    font-family: "Consolas";
+    line-height: 23px;
+    font-size: 15px;
+    color: #6ea4cf;
+    
+    text-align: left;
+    white-space: pre;
+}
+.widthctrl{
+    
+    max-width: 60%;
+    margin: 50px auto;
+    height: 100%;
+   /* padding: 30px; */
+}
+
+.navitem{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+.bluebtn{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    height: 53px;
+    background-color: rgb(15, 130, 239);
+    border-radius: 4px;
+    color: white;
+    border: 0px;
+    padding: 10px 50px;
+    margin: 10px 0px;
+    
+}
+.bluebtn2{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    height: 43px;
+    background-color: rgb(37, 149, 255);
+    border-radius: 4px;
+    color: white;
+    border: 0px;
+    padding: 0px 0px;
+    margin: 10px 0px;
+    
+}
+.subtitle{
+    font-family: 'Work Sans';
+    font-size: 14px;
+    font-weight: 500;
+    color:rgba(255, 255, 255, 0.7);
+    line-height: 16px;
+    letter-spacing: 2.1px;
+    padding-bottom: 14px;
+}
+.subtitle2{
+    display: block;
+    font-family: 'Work Sans';
+    font-size: 15px;
+    font-weight: 300;
+    color:rgba(255, 255, 255, 0.7);
+    line-height: 21px;
+}
+.subtitle3{
+    font-family: 'Work Sans';
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(108, 111, 115);
+    line-height: 21px;
+    text-align: center;
+}
+
+.whitebtn{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    height: 53px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    color: rgb(33, 37, 41);
+    border: 0px;
+    padding: 10px 50px;
+    margin: 10px 0px;
+    
+}
+.li1line{
+    border-top: 1px solid rgb(173, 181, 189);
+    padding: 21px 0px;
+    text-align: left;
+}
+.li2line{
+    border-top: 1px solid rgb(173, 181, 189);
+    border-bottom: 1px solid rgb(173, 181, 189);
+    padding: 21px 0px;
+    text-align: left;
+}
+img{
+   /*position: absolute;
+    bottom: 0px;*/
+}
+.imgitem{
+    position: relative;
+    padding: 0px 10px;
+    
+}
+.imgitem2{
+    
+   
+}
+.conitem{
+    flex: 0 0 33.333%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 10px 0px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 35px;    
+    font-weight: 500;
+    text-align: left;
+    
+    color: white;
+}
+
+h2{
+    margin: 0px 0px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 28px;    
+    font-weight: 500;
+    text-align: left;
+    line-height: 33px;
+}
+h3{
+    margin: 0px 0px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17.5px;    
+    font-weight: 500;
+    text-align: left;
+}
+p{
+    margin: 00px 0px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18.2px;
+    text-align: left;
+    color: rgba(255, 255, 255, .7);
+    line-height: 1.5;
+}
+
+b{
+    font-weight: bold;
+}
